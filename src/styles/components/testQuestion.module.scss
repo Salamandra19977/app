@@ -1,0 +1,19 @@
+@use "../base/colors.scss" as *;
+
+.question {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.btn {
+    width: 100px;
+    background-color: $accent-100;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    color: $bg-100;
+}

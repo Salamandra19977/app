@@ -2,5 +2,5 @@
 @use "../base/mixins.scss" as *;
 
 .footer {
-    @include base($text-100, $primary-200);
+    @include base($bg-100, $primary-200);
 }

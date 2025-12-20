@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
+import styles from "../styles/components/testQuestion.module.scss"
 
 export class TestQuestion extends Component {
   render() {
     return (
-      <div className='question'>
+      <div className={styles.question}>
         <h2>
             Question #{this.props.questionId}: {this.props.questionText}
         </h2>
@@ -20,6 +21,7 @@ export class TestQuestion extends Component {
                 </li>
             ))}
         </ul>
+        <button className={styles.btn}>Submit</button>
       </div>
     )
   }
