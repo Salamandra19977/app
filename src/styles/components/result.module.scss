@@ -1,20 +1,20 @@
 @use "../base/colors.scss" as *;
 
-.question {
-    height: 80vh;
+.container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
     gap: 2rem;
 }
 
 .btn {
-    width: 100px;
-    background-color: $accent-100;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 10px;
+    background-color: $primary-100;
     color: $bg-100;
+    border: none;
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 10px;
     margin: 0 10px;
 }
