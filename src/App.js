@@ -117,9 +117,8 @@ export class App extends Component {
           />
         ):this.state.showResults ? (
           <Result 
-            name={this.quiz1.quizName}
-            result={this.state.userAnswers.length}
-            count={this.quiz1.questions.length}
+            info={this.quiz1}
+            result={this.state.userAnswers}
             tryAgain={this.tryAgain}
           />
         ) : (
